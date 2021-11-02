@@ -1,0 +1,219 @@
+header, main, footer, .navigation-links-box-1, .navigation-links-box-2, .navigation-links-box-3, .navigation-links-box-4, .contactform {
+    background-color: peachpuff;
+    color:peru;
+    line-height: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    border: 5px ridge  peru;
+    padding: 10px;
+    margin: 20px;
+}
+
+main {
+    border: 3px ridge peru;
+    padding: 10px;
+    margin: 20px;
+}
+
+footer {
+    border: 3px ridge peru;
+    padding: 10px;
+    margin: 20px;
+}
+
+.navigation-links-box-1 {
+    border: 3px ridge peru;
+    padding: 10px;
+    margin: 20px;
+}
+
+.navigation-links-box-1 li {
+    padding: 10;
+    display: inline;
+    margin: 150px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.navigation-links-box-2 {
+    font-size: 14px;
+    border: 3px ridge peru;
+    padding: 10px;
+    margin: 20px;
+    font-weight:lighter;
+}
+
+.navigation-links-box-3 {
+    border: 3px ridge peru;
+    padding: 10px;
+    margin: 20px;
+    font-size: 14px;
+    font-weight:lighter;
+}
+
+.center-title-1 {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.center-title-2 {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.image1-style {
+    border: 2px solid peru;
+    width: 300px;
+}
+
+.image2-style {
+    border: 2px solid peru;
+    width: 300px;
+}
+
+.titel1 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.titel2 {
+    font-size:16px;
+}
+
+.tekst {
+    font-size: 14px;
+}
+
+.contactform {
+    border: 3px ridge  peru;
+    padding: 10px;
+    margin: 20px;
+}
+
+.navigation-links-box-4 {
+    border: 3px ridge peru;
+    padding: 10px;
+    margin: 20px;
+    font-size: 14px;
+    font-weight:lighter;
+}
+
+.navigation-links-box-4 a {
+    font-size: 14px;
+}
+
+.contact-text {
+    font-size: 14px;
+}
+
+/*MEDIA QUERIES */
+
+@media (min-width: 320px) {
+    header, main, footer, .navigation-links-box-1, .navigation-links-box-2, .navigation-links-box-3, .navigation-links-box-4, .contactform { 
+        background-color:  rgb(247, 216, 225);
+        color:palevioletred;
+        border-color: palevioletred;
+    }
+    .image1-style {
+        border: 1px solid palevioletred;
+        width: 235px;
+    }
+    .image2-style {
+        border: 1px solid palevioletred;
+        width: 220px;
+    }
+    .titel1 {
+        font-size: 22px;
+    }
+    .center-title-1 {
+        margin: 0 auto;
+        width: 240px;
+    }
+    .center-title-2 {
+        margin: 0 auto;
+        width: 240px;
+    }
+    .titel2 {
+        font-size:14px;
+    }
+    .tekst {
+        font-size: 12px;
+    }
+    .navigation-links-box-1 li {
+        display: inline;
+        margin: 12%;
+        font-size: 12px;
+    }
+    .navigation-links-box-2 {
+        font-size: 12px;
+    }
+    .navigation-links-box-3 {
+        font-size: 12px;
+    }
+    .navigation-links-box-4 {
+        font-size: 12px;
+    }
+    .navigation-links-box-4 a {
+        font-size: 12px;
+    }
+        .contact-text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) {
+    header, main, footer, .navigation-links-box-1, .navigation-links-box-2, .navigation-links-box-3, .navigation-links-box-4, .contactform  { 
+            background-color: lavender;
+            color:lightslategrey;
+            border-color: lightslategrey;
+            line-height: 1.0em;
+    }
+    .image1-style {
+        border: 2px solid lightslategrey;
+        width: 300px;
+    }
+    .image2-style {
+        border: 2px solid lightslategrey;
+        width: 400px;
+    }
+    .titel1 {
+        font-size: 22px;
+    }
+    .center-title-1 {
+        margin: 0 auto;
+        width: 340px;
+    }
+    .center-title-2 {
+        margin: 0 auto;
+        width: 440px;
+    }
+    .titel2 {
+        font-size:14px;
+    }
+    .tekst {
+        font-size: 12px;
+    }
+    .navigation-links-box-1 li {
+        display: inline;
+        margin: 7%;
+        font-size: 12px;
+    }
+    .navigation-links-box-2 {
+        font-size: 12px;
+    }
+    .navigation-links-box-3 {
+        font-size: 12px;
+    }
+    .navigation-links-box-4 {
+        font-size: 12px;
+    }
+    .navigation-links-box-4 a {
+        font-size: 12px;
+    }
+    .contact-text {
+        font-size: 12px;
+    }
+}
